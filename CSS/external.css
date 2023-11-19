@@ -1,0 +1,61 @@
+.innerContainer {
+    max-width: 1200px;
+}
+
+.header {
+    background-color: gold;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+
+.logoSection {
+    display: flex;
+    align-items: center;
+}
+
+.logoText {
+    font-size: 25px;
+    margin-left: 2px;
+}
+#logo {
+    height: 20px;
+    width: 15px;
+}
+
+
+.navList {
+    display: flex;
+    align-items: center;
+}
+
+.navList > li {
+    list-style: none;
+    font-size: 10px;
+    font-family: "Poppins"
+}
+
+.navList > li + li {
+    margin-left: 15px;
+}
+
+.signInButton {
+    border: none;
+    background-color: transparent;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.getStartedButton {
+    background-color: #2b2929f7;
+    border: 1px solid #2b2929f7;
+    color: #fff;
+    border-radius: 50px;
+    padding: 5px;
+    font-size: 10px;
+    cursor: pointer;
+}
